@@ -1,0 +1,7 @@
+{
+	"typescript.tsdk": "node_modules/typescript/lib",
+	"files.eol": "\n",
+	"prettier.configPath": ".prettierrc",
+	"typescript.disableAutomaticTypeAcquisition": true,
+	"typescript.check.npmIsInstalled": false
+}

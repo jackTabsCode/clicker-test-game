@@ -1,0 +1,35 @@
+{
+	"parser": "@typescript-eslint/parser",
+	"parserOptions": {
+		"jsx": true,
+		"useJSXTextNode": true,
+		"ecmaVersion": 2018,
+		"sourceType": "module",
+		"project": "./tsconfig.json"
+	},
+	"plugins": ["roblox-ts", "@typescript-eslint", "@typescript-eslint/eslint-plugin", "prettier"],
+	"extends": ["plugin:@typescript-eslint/strict", "plugin:roblox-ts/recommended", "prettier"],
+	"rules": {
+		"prettier/prettier": ["off"],
+		"@typescript-eslint/array-type": "off",
+		"@typescript-eslint/no-unused-vars": "off",
+		"@typescript-eslint/explicit-function-return-type": "off",
+		"@typescript-eslint/no-namespace": "off",
+		"@typescript-eslint/no-non-null-assertion": "off",
+		"@typescript-eslint/no-empty-function": "off",
+		"@typescript-eslint/no-throw-literal": "off",
+		"@typescript-eslint/consistent-indexed-object-style": "off",
+		"@typescript-eslint/consistent-type-definitions": "warn",
+		"@typescript-eslint/no-unnecessary-condition": "off",
+		"roblox-ts/lua-truthiness": "warn",
+		"object-shorthand": "warn",
+
+		"prefer-const": [
+			"warn",
+			{
+				"destructuring": "all"
+			}
+		],
+		"no-undef-init": "error"
+	}
+}

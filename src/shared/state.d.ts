@@ -1,0 +1,3 @@
+interface State {
+	debugEnabled: boolean
+}
