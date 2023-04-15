@@ -9,7 +9,6 @@
 	},
 	"keywords": [],
 	"author": "",
-	"license": "UNLICENSED",
 	"devDependencies": {
 		"@rbxts/compiler-types": "^2.1.0-types.1",
 		"@rbxts/types": "^1.0.676",
